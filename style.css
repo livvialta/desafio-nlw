@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,400&display=swap');
+
 * {margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -80,30 +82,34 @@ section div {
     border-radius: 8px;
 }
 
-/*
-section h2{
+
+section div h2{
     font-weight: 900;
     font-size: 24px;
     letter-spacing:-0.47px;
 }
 
 
-section p{
+section div p{
     font-weight: 400;
     letter-spacing: -0.18px;
 }
-*/
+
 
 li img {
     padding-top: 20px;
     width: 100px;
     height: 150px;
-    transition: transform .5s;
 }
 
 li svg{
     margin-top: 20px;
 }
+
+li{
+    transition: transform .5s;
+}
+
 li:hover{
     transform: scale(1.1);
   
