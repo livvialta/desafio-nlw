@@ -19,13 +19,12 @@ header div {
     display: flex;
     padding: 4px;
     transition:  transform .5s;
-
+    animation: fromTop .7s .2s backwards;
 }
 
 header div img{
     width: 100%;
-    border-radius: 50%;
-   
+    border-radius: 50%; 
 }
 
 header div:hover{
@@ -96,24 +95,65 @@ section div p{
 
 li img {
     padding-top: 20px;
-    width: 100px;
-    height: 150px;
+    width: 90px;
+    height: 140px;
 }
 
 li svg{
     margin-top: 20px;
 }
 
-li{
+
+section ul li{
     transition: transform .5s;
 }
 
-li:hover{
+section ul li:hover{
     transform: scale(1.1);
-  
 }
 
 footer{
     text-align: center;
     color: #dbcfc3;
+}
+
+@keyframes fromTop{
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    top{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+main section{
+    animation: fromBottom .7s backwards;
+}
+
+main section:nth-child(1){
+    animation-delay: 0 backwards;
+}
+
+main section:nth-child(2){
+    animation-delay: .4s;
+}
+
+main section:nth-child(3){
+    animation-delay: .7s;
 }
