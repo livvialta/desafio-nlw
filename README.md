@@ -6,7 +6,7 @@
 
 - Todo o escopo, desde a paleta de cores até o fundo e icons, foi pensando cuidadosamentecom base naquilo que me identifica/minha personalidade.
 
->Nesse desafio, pensei em mudar o rumo proposto, e criar um Linktree com meus Manhwas e Mangás favoritos e os quais quero ler.
+Nesse desafio, pensei em mudar o rumo proposto, e criar um Linktree com meus Manhwas e Mangás favoritos e os quais quero ler.
 
 
 ![preview](./.github/preview.png)
